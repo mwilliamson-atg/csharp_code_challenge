@@ -6,4 +6,4 @@ Your challenge is to write such a system, meeting the following criteria:
 1. Code that is interested in an event should be able to register and unregister itself at any point, without needing to pass a listener through a chain of uninterested objects/functions.
 1. Callbacks should be tightly bound to the event they're interested in.  If `ObjectA` is only interested in `EventA`, `ObjectA` should not be notified when `EventB` occurs.
 
-Once you have finished this, please include 
+Once you've finished, please make sure that the project can be easily built and executed from the command line, as the reviewers may not have the same tools you used.  If there are any special instructions, please include them.
